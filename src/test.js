@@ -10,7 +10,7 @@ describe("tests", () => {
   afterEach(() => {
     mock.restore();
   });
-  it("should fail", async () => {
+  it("should fail", () => {
     console.log(`This cnosole.log will cause an error`);
   });
 });
