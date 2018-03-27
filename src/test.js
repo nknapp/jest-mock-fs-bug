@@ -2,6 +2,7 @@ const mock = require("mock-fs");
 
 describe("tests", () => {
   beforeEach(() => {
+    console.log("beforeEach")
     mock({
       "/foo/bar": {}
     });
